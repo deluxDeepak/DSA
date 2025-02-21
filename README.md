@@ -5,7 +5,7 @@ Welcome to my GitHub profile!
 ## About Me
 
 - 🌱 I’m currently learning new technologies and improving my skills.
-- 💬 Ask me about anything related to web development and open source.
+- 💬 Ask me about anything related to Data structure and open source.
 - 📫 How to reach me: [Email](mailto:kumarsanjuladevi@gmail.com) | [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/)
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I love coding and solving complex problems.
@@ -15,7 +15,7 @@ Welcome to my GitHub profile!
 ### Programming Languages
 - JavaScript
 - Python
-- Java
+- SQL
 - C++
 
 ### Frameworks and Libraries
@@ -48,6 +48,6 @@ Welcome to my GitHub profile!
 
 ## Contact Me
 
-Feel free to reach out to me through [Email](mailto:your-email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/).
+Feel free to reach out to me through [Email](mailto:your-kumarsanjuladevi@gmail.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin-profile/).
 
 Thank you for visiting my profile!
