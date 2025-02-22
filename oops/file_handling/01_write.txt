@@ -1,0 +1,18 @@
+open()      // Open file
+close()     // Close file
+read()      // Read from file
+write()     // Write to file
+eof()       // Check end of file
+tellg()     // Get position in input stream
+tellp()     // Get position in output stream
+seekg()     // Set position in input stream
+seekp()     // Set position in output stream
+
+different types of modes:-
+ios::in     // Read mode
+ios::out    // Write mode
+ios::app    // Append mode
+ios::trunc  // Truncate mode
+ios::binary // Binary mode
+Important file operation :
+changed 
