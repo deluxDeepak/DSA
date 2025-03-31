@@ -29,15 +29,16 @@ int main()
     {
         node *temp = q.front();
         q.pop();
-        cout << "Enter the leaft child: ";
+        cout << "Enter the left child of : "<<temp->data <<" ";
         cin >> left;
         if (left != -1)
         {
+            
             temp->left = new node(left);
             // pushing the adress into the quee
             q.push(temp->left);
         }
-        cout << "Enter the right child :";
+        cout << "Enter the right child :" <<temp->data<<" ";
         cin >> right;
         if (right != -1)
         {
