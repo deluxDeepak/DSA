@@ -25,7 +25,4 @@ int main()
 
 }
 
-// Array: It store same type of data type 
-         // It store at contigeous location
-        //  dlfkmldkfld 
-
+// Array: It store same type of data typ
