@@ -10,7 +10,7 @@ int main()
     // cin >>input;
     // cout<<input;
 
-    // ab ye soace ke sath lega 
+    // ab ye space ke sath lega 
     getline(cin,input);
     cout<<input;
     
