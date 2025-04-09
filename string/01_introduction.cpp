@@ -9,6 +9,6 @@ int main()
         cin>>arr[i];
     }
     cout<<arr;
-    
+
 } 
 
