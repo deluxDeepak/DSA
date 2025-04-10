@@ -1,0 +1,20 @@
+Why to use custom header file ?
+
+1.Code reusablity 
+one code can be used as many time as we need (Function _declaration,macros,and constant)
+
+2.Modularity
+Code can be divided into multiple files.(code ko logical part me tor sakte hai )
+
+
+3.Readability
+Code is more organized and easy to understand.(jab code alag alag file me organize hota hai to padhna aur samjna easy rehta hai )
+
+
+4.Maintainabilty
+Easy to update and debug.(agar code alag alag file me hai to update karna aur debug karna easy rehta hai )
+
+
+5.Efficiency
+Compilation time is reduced.(jab code alag alag file me hota hai to compilation time kam lagta hai )
+
