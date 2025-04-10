@@ -60,6 +60,7 @@ public:
             heapify(parent);                    // parent node se heapify karenge
         } 
     }
+    
     // deliting the node in the max heap always dete the root node 
     void pop()
     {
@@ -68,13 +69,21 @@ public:
             cout<<"Heap is underflow" <<endl;
             return;
         } 
+
+        // int maxValue = arr[0]; // Store the actual max value before overwriting
+
+        // 2. Replace Root with Last Element
         arr[0]=arr[size-1];                         //Last element index se delete karenge 
         cout<<arr[0] <<"deleted from the heap"<<endl;
         size--;
+
+        // Handle heap becoming empty (Agr heap empty ho gya to heapify mat lagao )
         if (size==0)
         {
             return;
         }
+
+        // Index 0 pe jo hai wo violate the heap property 
         heapify(0);                           // root node se heapify karenge
         
         
