@@ -1,6 +1,6 @@
 # Data Structures and Algorithms (DSA) Practice
 
-Welcome to my repository dedicated to learning and practicing Data Structures and Algorithms! This space contains my implementations of various DSA concepts, primarily focused on **C++ ***.
+Welcome to my repository dedicated to learning and practicing Data Structures and Algorithms! This space contains my implementations of various DSA concepts, primarily focused on **C** and **c++**.
 
 ## Purpose
 
