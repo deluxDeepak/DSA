@@ -18,6 +18,7 @@ int main()
     node *head;
     head = NULL;
 
+    // insertion in starting 
     int arr[5] = {56, 78, 90, 45, 55};
     for (int i = 0; i < 5; i++)
     {
@@ -34,6 +35,7 @@ int main()
         }
     }
     
+    // insertion at the end 
     if (head == NULL)
     {
         head = new node(10);
