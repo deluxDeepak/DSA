@@ -17,7 +17,6 @@ public:
     node *head = NULL;
 
     void insert_position(int data, int position)
-
     {
         node *temp2 = new node(data); // node to be insert
         if (position == 0)

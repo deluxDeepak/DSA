@@ -22,11 +22,11 @@ class maxheap
         int right = index * 2 + 2;
         if (left < size && heap[left] > heap[largest])
         {
-            left = largest;
+            largest = left;
         }
         if (right < size && heap[right] > heap[largest])
         {
-            right = largest;
+            largest = right;
         }
         if (index != largest)
         {
