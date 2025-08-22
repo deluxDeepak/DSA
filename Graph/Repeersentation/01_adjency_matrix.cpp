@@ -1,41 +1,51 @@
 #include <iostream>
-#include<vector>
+#include <vector>
 using namespace std;
+
 int main()
 {
-    // vertex 0 nahi hona chiye 
-    int vertex,edge;
-    cout<<"Enter the vertex : ";
-    cin>>vertex;
+    int vertex, edges;
+    // int matrix[vertex][vertex];
 
-    // number vertex also non negative 
-    if (vertex<=0)
+    cout << "Enter number of vertex ";
+    cin >> vertex;
+
+    // Check the vertex is valid or not
+    if (vertex < 0)
     {
-        cout<<"Invalid vertex !"<<endl;
-        return 1;
+        cout << "Inavlid vertex " << endl;
+        return 0;
     }
-    // Number of edges (must be non-negative and not exceed maximum possible edges)
-    cout<<"Enter the edge : ";
-    cin>>edge;
-    if (edge<0 || edge>vertex*(vertex-1)/2)
+
+    cout << "Enter the number of edges ";
+    cin >> edges;
+
+    // Check the condition for edges
+    if (edges < 0 || edges > vertex * (vertex - 1) / 2)
     {
-        cout<<"Invalid edge !"<<endl;
-        return 1;
+        cout << "Invalid edges " << endl;
+        return 0;
     }
-    vector<vector<bool> >adj_mat(vertex,vector<bool>(vertex,0));
-    cout<<"Enter the edges(u v frmate): ";
-    int u,v;
-    for (int i = 0; i < edge; i++)
+
+    vector<vector<bool>> matrix(vertex, vector<bool>(vertex, 0));
+    // Take the input from the uses
+    cout << "Enter edges in formate(U V)" << endl;
+    for (int i = 0; i < edges; i++)
     {
-        cin>>u>>v;
-        adj_mat[u][v] = adj_mat[v][u] = 1;
+        int u, v;
+        cin >> u >> v;
+        matrix[u][v] = 1;
+        matrix[v][u] = 1;
     }
-    // Display the adjacency matrix
+
+    cout << "adjency Matrix is " << endl;
     for (int i = 0; i < vertex; i++)
     {
         for (int j = 0; j < vertex; j++)
-            cout<<adj_mat[i][j]<<" ";
-        cout<<endl;
+        {
+            cout << matrix[i][j] << " ";
+        }
+        cout << "\n";
     }
     return 0;
 }

@@ -14,6 +14,7 @@ int main()
         cout<<"Invalid vertex !"<<endl;
         return 1;
     }
+
     // Number of edges (must be non-negative and not exceed maximum possible edges)
     cout<<"Enter the edge : ";
     cin>>edge;
@@ -22,6 +23,7 @@ int main()
         cout<<"Invalid edge !"<<endl;
         return 1;
     }
+    
     vector<vector<int> >adj_mat(vertex,vector<int>(vertex,0));
     cout<<"Enter the edges(u v frmate): ";
     int u,v,weight;

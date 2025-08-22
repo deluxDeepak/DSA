@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
+    // Size of the matrix (means only five node will be persent )
     int v = 5;
     int adj_matrix[v][v] = {0};
 

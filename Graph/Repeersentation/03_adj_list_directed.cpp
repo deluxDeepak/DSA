@@ -12,7 +12,7 @@ int main()
     cout << "Enter the number of edges.";
     cin >> e;
 
-    // usiing for loop to store the edges and vertex
+    // using for loop to store the edges and vertex
     for (int i = 0; i < e; i++)
     {
         int u, v1;
