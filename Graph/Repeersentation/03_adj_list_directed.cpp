@@ -7,6 +7,8 @@ int main()
     int v, e;
     cout << "Enter the size of the vertex";
     cin >> v;
+    
+    // Array of vectors 
     vector<int> adj_list[v];
 
     cout << "Enter the number of edges.";

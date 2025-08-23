@@ -21,8 +21,9 @@ int main()
         return 0;
     }
 
-    // vector ke ander ek vector hai jo bhut sara variable store kar sakta hai
+    // vector ke ander ek vector hai jo bhut sara variable store kar sakta hai(Vector of Array se )
     vector<vector<int>> edge_list;
+    
     // craeting the graph
     // edge_list.push_back({1,2,11});
     // edge_list.push_back({2,3 ,333});
@@ -41,6 +42,8 @@ int main()
     {
         cout << edge_list[i][0] << "->" << edge_list[i][1] << "(" << edge_list[i][2] << ")" << endl;
     }
+
+
     cout<<"Edge list are:"<<endl;
     for (auto result : edge_list)
     {
