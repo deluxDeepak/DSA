@@ -9,13 +9,13 @@ using namespace std;
 void fun(int n)
 {
     // base case dalna hoga (infinite times loop chalne lagega )
-    if(n==2)
+    if(n==0)
     {
         cout <<"Happy birthday";
         return ;
     }
     cout <<n <<" Days left for birthday " <<endl;
-    fun(n-2);
+    fun(n-1);
 }
 int main()
 {
@@ -27,5 +27,5 @@ int main()
     // }
     // cout<< "Happy birthday " <<endl;
 
-    fun(14);
+    fun(7);
 }

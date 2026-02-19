@@ -1,0 +1,13 @@
+# Compiled executables
+*.exe
+*.out
+*.o
+
+# Output directories
+output/
+
+# VS Code local settings
+.vscode/
+git rm -r --cached .
+git add .
+git commit -m "Update gitignore"

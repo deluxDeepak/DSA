@@ -34,6 +34,7 @@ int main()
     vector<int>ans;
     dfs_traversal(0,visited,adj_list,ans);
 
+    // Ranged based for loop use kiya hai 
     cout<<"DFS traversal:";
     for (auto result:ans)
     {
